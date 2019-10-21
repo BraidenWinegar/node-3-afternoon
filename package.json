@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/BraidenWinegar/node-3-afternoon#readme",
   "dependencies": {
-    "dotenv": "^8.1.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "massive": "^6.1.1"
   }

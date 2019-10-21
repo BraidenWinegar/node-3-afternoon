@@ -7,7 +7,8 @@ const app = express();
 
 const { SERVER_PORT, CONNECTION_STRING } = process.env;
 
-massive(CONNECTION_STRING).then(dbInstance => {
+massive(CONNECTION_STRING)
+.then(dbInstance => {
     app.set('db', dbInstance);
 })
 .catch(err => console.log(err, "massive connection string"));
